@@ -95,9 +95,9 @@ body {
 
 .carousel-track {
     display: flex;
-    width: calc(100vw * 6); /* total gambar */
-    animation: carouselLoop 30s linear infinite;
-    height: 100%; /* Ensure full height */
+    width: calc(100vw * 4); /* Jika 4 gambar */
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
 }
 
 .carousel-image {
